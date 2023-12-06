@@ -110,6 +110,7 @@ namespace Progszigorlat
             
         }
 
+        //6. Feladat
         public bool Search(string name)
         {
             for (int i = 0; i < games.Count; i++)
@@ -119,6 +120,7 @@ namespace Progszigorlat
             return false;
         }
 
+        //7. Feladat
         public void BestGame()
         {
             Console.WriteLine("7. Feladat:\n");
@@ -134,6 +136,7 @@ namespace Progszigorlat
             Console.WriteLine($"A legjobbra értékelt játék: {games[bestGameID].Name} ({games[bestGameID].OpenCritic})\n");
         }
 
+        //8. Feladat
         public void Multiplayer()
         {
             int online = 0;
